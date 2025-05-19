@@ -14,7 +14,7 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 
 ### Question 1: High-Value Customers with Multiple Products
 
-* **Objective**: Identify customers with at least one funded savings plan AND one funded investment plan, sorted by total deposits.
+* **Objective**: To identify customers with at least one funded savings plan AND one funded investment plan, sorted by total deposits.
 * **Tables Involved**: `users_customuser`, `savings_savingsaccount`, `plans_plan`
 * **Solution**:
 
@@ -24,7 +24,7 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 
 ### Question 2: Transaction Frequency Analysis
 
-* **Objective**: Calculate the average number of transactions per customer per month and categorize them.
+* **Objective**: To calculate the average number of transactions per customer per month and categorize them.
 * **Tables Involved**: `savings_savingsaccount`
 * **Solution**:
 
@@ -33,7 +33,7 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 
 ### Question 3: Account Inactivity Alert
 
-* **Objective**: Find all active accounts (savings or investments) with no transactions in the last 1 year.
+* **Objective**: To find all active accounts (savings or investments) with no transactions in the last 1 year.
 * **Tables Involved**: `plans_plan`, `savings_savingsaccount`
 * **Solution**:
 
@@ -42,7 +42,7 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 
 ### Question 4: Customer Lifetime Value (CLV) Estimation
 
-* **Objective**: Estimate CLV based on account tenure and transaction volume.
+* **Objective**: To estimate CLV based on account tenure and transaction volume.
 * **Tables Involved**: `users_customuser`, `savings_savingsaccount`
 * **Solution**:
 
@@ -52,8 +52,9 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 
 ## Challenges Faced:
 
-* The `name` column in `users_customuser` was `NULL`. To solve this, we concatenated `first_name` and `last_name`.
+* The `name` column in `users_customuser` was `NULL`. To solve this, I concatenated `first_name` and `last_name`.
 * MySQL's `ONLY_FULL_GROUP_BY` mode required careful grouping and aggregation.
+* This mode enforces strict SQL standards for grouping. I ensured all selected columns were either aggregated or included in the `GROUP BY` clause, enabling the queries to run successfully without errors.
 
 ## Conclusion:
 
