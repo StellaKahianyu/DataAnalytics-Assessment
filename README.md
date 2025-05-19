@@ -1,7 +1,7 @@
 # DataAnalytics-Assessment
 ## Overview
 
-This repository contains SQL solutions for the SQL Proficiency Assessment. The queries were written to solve various business problems related to data retrieval, aggregation, joins, subqueries, and data manipulation across multiple tables.
+This repository contains SQL solutions for the SQL Proficiency Assessment. I wrote the queries to solve various business problems related to data retrieval, aggregation, joins, subqueries, and data manipulation across multiple tables.
 
 ### Tables Used:
 
@@ -58,4 +58,4 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 
 ## Conclusion:
 
-All tasks have been completed successfully in line with the assessment requirements. Queries have been optimized for clarity and efficiency, with inline comments to support understanding.
+I have completed all the tasks successfully in line with the assessment requirements. I optimized the queries for clarity and efficiency, with inline comments to support understanding.
