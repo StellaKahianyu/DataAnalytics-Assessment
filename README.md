@@ -53,9 +53,9 @@ This repository contains SQL solutions for the SQL Proficiency Assessment. The q
 ## Challenges Faced:
 
 * The `name` column in `users_customuser` was `NULL`. To solve this, I concatenated `first_name` and `last_name`.
-* MySQL's `ONLY_FULL_GROUP_BY` mode required careful grouping and aggregation.
-* This mode enforces strict SQL standards for grouping. I ensured all selected columns were either aggregated or included in the `GROUP BY` clause, enabling the queries to run successfully without errors.
+* MySQL's `ONLY_FULL_GROUP_BY` mode. The mode enforces strict SQL standards for grouping. I ensured all selected columns were either aggregated or included in the `GROUP 
+  BY` clause, enabling the queries to run successfully without errors.
 
 ## Conclusion:
 
-The solutions were optimized for clarity, efficiency, and accuracy. Comments were added to all queries for better understanding. All tasks were successfully completed as per the assessment requirements.
+All tasks have been completed successfully in line with the assessment requirements. Queries have been optimized for clarity and efficiency, with inline comments to support understanding.
